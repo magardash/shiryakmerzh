@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF9393"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="188dp"
+        android:layout_height="58dp"
+        android:text="Контактная информация"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="телефон- +7 991 777 77 77"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discord - https://discord.com/"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="telegram - https://web.telegram.org/k/"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="240dp"
+        android:layout_height="174dp"
+        android:text="выйди отсюда"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
